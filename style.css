@@ -3,22 +3,135 @@
 }
 
 body {
+    background-color: #d7d7d7;
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
 
 div.wrapper {
+    background-color: rgba(255, 255, 255, 0.8);
     max-width: 1024px;
     margin: 0 auto;
 }
 
 header {
+    margin-left: 50px;
     display: flex;
     flex-direction: row;
+    align-items: center;
+}
+
+.header-photo {
+    margin-left: 35px;
+    
 }
 
 .header_info {
     display: flex;
     flex-direction: column;
+    align-items: center;
+}
+
+.header_info-name {
+    margin-left: 120px;
+}
+
+.header_info-contacts-name {
+    margin-left: 180px;
+}
+
+.header_info-contacts_item {
+    list-style-type: none;
+    margin-left: 120px;
+}
+
+.skills-html {
+    display: flex;
+    width: 100px;
+    height: 25px;
+    border: 1px solid #d7d7d7;
+    background-color: #d7d7d7;
+    color: white;
+    border-radius: 5px;
+    align-items: center;
+    
+}
+.skills-html-name {
+    padding-left: 25px;
+}
+
+.skills-css {
+    display: flex;
+    width: 100px;
+    height: 25px;
+    border: 1px solid #d7d7d7;
+    background-color: #d7d7d7;
+    color: white;
+    border-radius: 5px;
+    align-items: center;
+}
+
+.skills-css-name {
+    padding-left: 30px;
+}
+
+.skills-js {
+    display: flex;
+    width: 100px;
+    height: 25px;
+    border: 1px solid #d7d7d7;
+    background-color: #d7d7d7;
+    color: white;
+    border-radius: 5px;
+    align-items: center;
+}
+
+.skills-js-name {
+    padding-left: 15px;
+}
+
+.skills-git {
+    display: flex;
+    width: 100px;
+    height: 25px;
+    border: 1px solid #d7d7d7;
+    background-color: #d7d7d7;
+    color: white;
+    border-radius: 5px;
+    align-items: center;
+}
+
+.skills-git-name {
+    padding-left: 20px;
+}
+
+.skills-photoshop {
+    display: flex;
+    width: 100px;
+    height: 25px;
+    border: 1px solid #d7d7d7;
+    background-color: #d7d7d7;
+    color: white;
+    border-radius: 5px;
+    align-items: center;
+}
+
+.skills-photoshop-name {
+    padding-left: 7px;
+}
+
+.skills-vscode {
+    display: flex;
+    width: 100px;
+    height: 25px;
+    border: 1px solid #d7d7d7;
+    background-color: #d7d7d7;
+    color: white;
+    border-radius: 5px;
+    align-items: center;
+}
+
+.skills-vscode-name {
+    padding-left: 20px;
 }
