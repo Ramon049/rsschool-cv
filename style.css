@@ -1,0 +1,99 @@
+* {
+    font-family: "Montserrat", sans-serif;
+}
+
+body {
+    background-color: white;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+div.wrapper {
+    background-color: rgba(250, 251, 195, 0.8);
+    max-width: 1024px;
+    margin: 0 auto;
+}
+
+header {
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+
+.header_info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.header_info-name {
+    margin-left: 100px;
+}
+
+.header_info-contacts-name {
+    margin-left: 160px;
+}
+
+.header_info-contacts_item {
+    list-style-type: none;
+    margin-left: 120px;
+}
+
+.skills-box {
+    display: flex;
+    justify-content: center;
+    width: 100px;
+    height: 25px;
+    border: 1px solid #a298ff;
+    background-color: #f9ffa1;
+    color: rgb(0, 0, 0);
+    border-radius: 5px;
+    align-items: center;
+}
+
+main {
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+
+.summary {
+    width: 450px;
+}
+
+.skills {
+    display: flex;
+}
+
+.skills h2{
+    padding-right: 25px;
+}
+
+.skills-box {
+    margin-bottom: 5px;
+    margin-right: 5px;
+}
+
+.container_left {
+    margin-top: 25px;
+    margin-left: 45px;
+
+}
+
+.container_right {
+    margin-left: 30px;
+    margin-right: 20px;
+    margin-top: 25px;
+}
+
+.english {
+    padding-top: 145px;
+    display: flex;
+}
+
+.english p {
+    padding: 10px 40px;
+}
